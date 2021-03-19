@@ -1,0 +1,37 @@
+
+ >>>>> started run at 18/03/2021 10:38:10{'data_path': ['C:/Users/uwele/Documents/PhD/stitching/calcium-imaging-processing-kata/data/raw'], 'subfolders': [], 'save_path0': 'C:/Users/uwele/Documents/PhD/stitching/calcium-imaging-processing-kata/data/processed', 'fast_disk': 'C:/Users/uwele/Documents/PhD/stitching/calcium-imaging-processing-kata/data/processed', 'input_format': 'tif'}
+tif
+** Found 2250 tifs - converting to binary **
+2000 frames of binary, time 142.83 sec.
+time 157.99 sec. Wrote 2250 frames per binary for 1 planes
+>>>>>>>>>>>>>>>>>>>>> PLANE 0 <<<<<<<<<<<<<<<<<<<<<<
+NOTE: not registered / registration forced with ops['do_registration']>1
+      (no previous offsets to delete)
+----------- REGISTRATION
+registering 2250 frames
+Reference frame, 75.24 sec.
+Registered 2000/2250 in 348.69s
+----------- Total 451.00 sec
+Registration metrics, 70.78 sec.
+NOTE: applying default C:\Users\uwele\.suite2p\classifiers\classifier_user.npy
+----------- ROI DETECTION
+Binning movie in chunks of length 10
+Binned movie [198,498,467], 5.59 sec.
+NOTE: estimated spatial scale ~12 pixels, time epochs 1.00, threshold 10.00 
+0 ROIs, score=84.43
+Found 459 ROIs, 11.53 sec
+After removing overlaps, 447 ROIs remain
+Masks made in 8.41 sec.
+----------- Total 25.86 sec.
+----------- EXTRACTION
+Extracted fluorescence from 447 ROIs in 2250 frames, 7.19 sec.
+added enhanced mean image
+----------- Total 15.58 sec.
+----------- CLASSIFICATION
+['compact', 'npix_norm', 'skew']
+----------- Total 0.48 sec.
+----------- SPIKE DECONVOLUTION
+----------- Total 0.11 sec.
+Plane 0 processed in 564.16 sec (can open in GUI).
+total = 722.37 sec.
+TOTAL RUNTIME 722.37 sec
